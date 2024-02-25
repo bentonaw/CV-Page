@@ -14,7 +14,9 @@ p, li, a {
 	font-family: 'ClashDisplay-Bold';
 }
 body {
-	font-family: "IBM Plex Mono", monospace;
+	margin: 0;
+	padding: 0;
+
 }
 .splash {
 	/* background-color: rgba(255, 255, 252, 0.959); */
@@ -154,18 +156,23 @@ li a {
 	z-index: 3;
 }
 
+
 footer {
 	background-color: white;
-	border: 2px solid black;
-	padding: 20% 0 20% 0;
+	border: 1px solid #333;
+	
+	padding: 10% 0 20% 0;
 	z-index: 1;
 	position: relative;
 }
+
 
 .about {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 10% 0 20% 0;
+	
 }
 .about-me {
 	list-style-type: none;
@@ -230,6 +237,7 @@ img.me {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	padding-bottom: 40%;
 }
 
 .container {
@@ -241,6 +249,12 @@ img.me {
 	margin-bottom: 1.5rem;
 }
 
+.title h1 {
+	padding-top: 20vw;
+	text-align: center;
+	font-size: 4rem;
+
+}
 .imageLink {
 	width: 100%;
 }
