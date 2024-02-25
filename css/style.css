@@ -227,6 +227,9 @@ img.me {
 	margin-bottom: 1.5rem;
 }
 
+.imageLink {
+	width: 100%;
+}
 
 @media (max-width: 650px) {
 	.burger-menu {
