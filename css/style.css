@@ -2,7 +2,9 @@
 @import url("clash-display.css");
 @import url("cabinet-grotesk.css");
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	font-family: "ClashDisplay-Medium";
 }
 p,
@@ -250,6 +252,19 @@ img.me {
 	padding-top: 20vw;
 	text-align: center;
 	font-size: 4rem;
+}
+
+.portfolioProjects {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+.portfolioProjects li {
+	list-style-type: none;
+}
+
+.portfolioProjects li a {
+	color: grey;
 }
 
 .imageLink {
