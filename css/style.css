@@ -195,6 +195,10 @@ img.me {
 	flex-direction: column-reverse;
 }
 
+.nav-toggle-label {
+	display: none;
+}
+
 .modal {
 	display: none;
 	position: fixed;
