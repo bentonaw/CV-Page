@@ -20,7 +20,6 @@ body {
 	padding: 0;
 }
 .splash {
-	/* background-color: rgba(255, 255, 252, 0.959); */
 	height: 100vh;
 	margin: 0rem;
 	overflow: hidden;
@@ -72,7 +71,7 @@ p {
 	top: 100%;
 	translate: -50% -50%;
 	border-radius: 50%;
-	background: linear-gradient(to right, rgb(255, 255, 254), rgb(44, 32, 8));
+	background: linear-gradient(to right, rgb(255, 255, 254), rgb(168, 150, 113), rgb(44, 32, 8));
 	animation: rotate 6s infinite;
 	opacity: 0.4;
 	z-index: -2;
@@ -84,7 +83,6 @@ p {
 	width: 100%;
 	position: absolute;
 	z-index: -1;
-	/* backdrop-filter: blur(12vmax); */
 }
 
 .enter:hover {
@@ -94,7 +92,7 @@ p {
 #logo {
 	color: black;
 	font-size: 1.8em;
-	/* insert svg here */
+	white-space: nowrap;
 }
 
 header {
@@ -124,7 +122,7 @@ header a {
 
 header a:hover {
 	box-shadow: 2.5px 2.5px 0 0 rgba(0, 0, 0, 0.2);
-	border-color: #333;
+	border-color: #929292;
 	border-radius: 30px;
 }
 .menu-options {
@@ -137,10 +135,10 @@ li a {
 }
 
 .active {
-	/* border: 2px solid #333; */
 	border-color: #333;
 	border-radius: 30px;
 	padding: 0.3em 0.5em;
+	
 }
 
 #nav-toggle {
@@ -285,7 +283,9 @@ img.me {
 	color: black;
 }
 
-@media (max-width: 650px) {
+/* mobile menu */
+
+@media (max-width: 715px) {
 	.burger-menu {
 		display: block;
 		position: absolute;
