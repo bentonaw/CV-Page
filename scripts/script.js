@@ -25,15 +25,15 @@ document.addEventListener("mousemove", function (e) {
 if (window.location.href.includes("About.html")) {
 	eegg.addEventListener("click", function (e) {
 		blob.style.background =
-			"linear-gradient(to right, rgb(255, 255, 254), rgb(243, 159, 159))";
+			"linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)";
 	});
 }
 
-if (window.location.href.includes("Splash.html")) {
+if (window.location.href.includes("Index.html")) {
 	let pressedKeys = ""; // Initializing the variable
 
 	const messages = [
-		"Hax detected!",
+		"Hack detected!",
 		"Unauthorized access!",
 		"Security breach!",
 		"Alert: suspicious activity detected!",

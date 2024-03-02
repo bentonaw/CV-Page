@@ -2,6 +2,7 @@
 @import url("clash-display.css");
 @import url("cabinet-grotesk.css");
 
+/* general styling */
 h1,
 h2,
 h3 {
@@ -11,6 +12,11 @@ p,
 li,
 a {
 	font-family: "CabinetGrotesk-Regular";
+}
+
+p {
+	font-size: 1.5rem;
+	z-index: 2;
 }
 #logo {
 	font-family: "ClashDisplay-Bold";
@@ -45,23 +51,6 @@ body {
 	}
 }
 
-.welcome {
-	font-family: "ClashDisplay-bold";
-	font-weight: 500;
-	font-size: 12vw;
-	z-index: 1;
-}
-
-.enter {
-	z-index: 2;
-	font-size: 1rem;
-	font-family: "CabinetGrotesk-Regular";
-}
-
-p {
-	z-index: 2;
-}
-
 #blob {
 	background-color: white;
 	height: 300vmax;
@@ -71,7 +60,7 @@ p {
 	top: 100%;
 	translate: -50% -50%;
 	border-radius: 50%;
-	background: linear-gradient(to right, rgb(255, 255, 254), rgb(168, 150, 113), rgb(44, 32, 8));
+	background: linear-gradient(to right, rgb(255, 255, 254), rgb(168, 150, 113), rgb(32, 24, 6));
 	animation: rotate 6s infinite;
 	opacity: 0.4;
 	z-index: -2;
@@ -83,10 +72,6 @@ p {
 	width: 100%;
 	position: absolute;
 	z-index: -1;
-}
-
-.enter:hover {
-	transform: scale(5) rotate(5deg);
 }
 
 #logo {
@@ -171,6 +156,33 @@ footer {
 	position: relative;
 }
 
+#eegg {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* landingpage styling */
+
+.welcome {
+	font-family: "ClashDisplay-bold";
+	font-weight: 500;
+	font-size: 12vw;
+	z-index: 1;
+}
+
+.enter {
+	z-index: 2;
+	font-size: 1rem;
+	font-family: "CabinetGrotesk-Regular";
+}
+
+.enter:hover {
+	transform: scale(5) rotate(5deg);
+}
+
+/* about styling */
+
 .about {
 	display: flex;
 	justify-content: space-between;
@@ -192,6 +204,8 @@ img.me {
 	object-position: 0 10%;
 	margin-left: -5%;
 }
+
+/* portfolio styling */
 
 #portfolio ul {
 	display: flex;
@@ -276,11 +290,6 @@ img.me {
 
 .imageLink {
 	width: 100%;
-}
-
-#eegg {
-	text-decoration: none;
-	color: black;
 }
 
 /* mobile menu */
